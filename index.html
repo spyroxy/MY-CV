@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Andi Pratama - Flutter Developer Portfolio" />
+    <title>Andi Pratama | Software Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar glass">
+      <div class="nav-container">
+        <a href="#" class="logo">AP.</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-small">Hire Me</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+      <div class="stars"></div>
+      <div class="hero-content reveal">
+        <div class="profile-container">
+          <img src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Andi Pratama" class="profile-img">
+          <div class="status-badge">
+            <span class="status-dot"></span> Available for opportunities
+          </div>
+        </div>
+        
+        <h1 class="hero-title">Andi Pratama</h1>
+        <h2 class="hero-subtitle"><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+        
+        <p class="hero-desc">
+          Passionate about crafting beautiful, performant digital experiences across
+          mobile and web. 5+ years building products that people actually love to use.
+        </p>
+        
+        <div class="hero-location">
+          <i class="ph ph-map-pin"></i> Jakarta, Indonesia
+        </div>
+
+        <div class="hero-cta">
+          <a href="#" class="btn btn-primary"><i class="ph ph-download-simple"></i> Download CV</a>
+          <a href="#contact" class="btn btn-outline"><i class="ph ph-paper-plane-tilt"></i> Get In Touch</a>
+        </div>
+
+        <div class="hero-social">
+          <a href="#" class="social-icon" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+          <a href="#" class="social-icon" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+          <a href="#" class="social-icon" aria-label="Email"><i class="ph ph-envelope-simple"></i></a>
+        </div>
+
+        <a href="#about" class="scroll-down">
+          <span class="scroll-text">Scroll down</span>
+          <i class="ph ph-caret-down"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">// ABOUT ME</span>
+          <h2 class="section-title">Who I Am</h2>
+          <p class="section-subtitle">A brief introduction to my background and what drives me.</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image reveal slide-right">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Workspace" class="rounded-image">
+          </div>
+          <div class="about-text reveal slide-left">
+            <p>Hi! I'm <span class="highlight">Andi Pratama</span>, a software engineer based in Jakarta with a deep passion for building cross-platform applications using Flutter and modern web technologies.</p>
+            <p>I specialize in creating pixel-perfect mobile and web experiences that seamlessly blend functionality with beautiful design. My approach combines technical rigor with an eye for aesthetics.</p>
+            <p>When I'm not coding, I enjoy contributing to open-source, exploring new design systems, and mentoring junior developers in the local tech community.</p>
+            
+            <div class="about-details">
+              <div class="detail-item">
+                <span class="detail-label">NAME</span>
+                <span class="detail-value">Andi Pratama</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">AGE</span>
+                <span class="detail-value">27 years</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">LOCATION</span>
+                <span class="detail-value">Jakarta, ID</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">EMAIL</span>
+                <span class="detail-value">andi@dev.id</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid reveal">
+          <div class="stat-card glass">
+            <h3 class="stat-number">5+</h3>
+            <p class="stat-label">Years Experience</p>
+          </div>
+          <div class="stat-card glass">
+            <h3 class="stat-number">42</h3>
+            <p class="stat-label">Projects Done</p>
+          </div>
+          <div class="stat-card glass">
+            <h3 class="stat-number">18</h3>
+            <p class="stat-label">Happy Clients</p>
+          </div>
+          <div class="stat-card glass">
+            <h3 class="stat-number">3</h3>
+            <p class="stat-label">Awards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section bg-alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">// EXPERTISE</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">My technical toolkit built over 5+ years of professional development.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Mobile Skills -->
+          <div class="skill-category glass reveal">
+            <div class="category-header">
+              <div class="category-icon bg-purple"><i class="ph ph-device-mobile"></i></div>
+              <h3>Mobile</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>Flutter / Dart</span><span>95%</span></div>
+                <div class="progress-bar"><div class="progress fill-purple" data-width="95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>React Native</span><span>78%</span></div>
+                <div class="progress-bar"><div class="progress fill-purple" data-width="78%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>iOS (Swift)</span><span>60%</span></div>
+                <div class="progress-bar"><div class="progress fill-purple" data-width="60%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Frontend Skills -->
+          <div class="skill-category glass reveal" style="transition-delay: 0.1s">
+            <div class="category-header">
+              <div class="category-icon bg-blue"><i class="ph ph-browser"></i></div>
+              <h3>Web Frontend</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>React / Next.js</span><span>88%</span></div>
+                <div class="progress-bar"><div class="progress fill-blue" data-width="88%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>TypeScript</span><span>90%</span></div>
+                <div class="progress-bar"><div class="progress fill-blue" data-width="90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Tailwind CSS</span><span>92%</span></div>
+                <div class="progress-bar"><div class="progress fill-blue" data-width="92%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Skills -->
+          <div class="skill-category glass reveal" style="transition-delay: 0.2s">
+            <div class="category-header">
+              <div class="category-icon bg-purple"><i class="ph ph-database"></i></div>
+              <h3>Backend</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>Node.js / Express</span><span>82%</span></div>
+                <div class="progress-bar"><div class="progress fill-purple" data-width="82%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Firebase / Supabase</span><span>88%</span></div>
+                <div class="progress-bar"><div class="progress fill-purple" data-width="88%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>PostgreSQL</span><span>75%</span></div>
+                <div class="progress-bar"><div class="progress fill-purple" data-width="75%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools Skills -->
+          <div class="skill-category glass reveal" style="transition-delay: 0.3s">
+            <div class="category-header">
+              <div class="category-icon bg-green"><i class="ph ph-code"></i></div>
+              <h3>Tools & Design</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>Figma</span><span>85%</span></div>
+                <div class="progress-bar"><div class="progress fill-green" data-width="85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Git / CI/CD</span><span>88%</span></div>
+                <div class="progress-bar"><div class="progress fill-green" data-width="88%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Docker</span><span>70%</span></div>
+                <div class="progress-bar"><div class="progress fill-green" data-width="70%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skills-tags reveal">
+          <span class="tag">Flutter</span>
+          <span class="tag">Dart</span>
+          <span class="tag">React</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">Supabase</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Figma</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">// JOURNEY</span>
+          <h2 class="section-title">Experience</h2>
+          <p class="section-subtitle">My professional path and educational background.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Senior Flutter Developer</h3>
+                  <span class="timeline-company">GoTo Financial</span>
+                </div>
+                <div class="timeline-meta">
+                  <div class="timeline-date"><i class="ph ph-calendar"></i> 2022 — Present</div>
+                  <span class="badge badge-primary">Full-time</span>
+                </div>
+              </div>
+              <p class="timeline-desc">Led development of the GoPay mobile wallet app serving 20M+ users. Architected BLoC state management patterns and implemented CI/CD pipelines reducing release cycles by 40%.</p>
+              <div class="timeline-tags">
+                <span class="tag small">Flutter</span>
+                <span class="tag small">Dart</span>
+                <span class="tag small">BLoC</span>
+                <span class="tag small">Firebase</span>
+                <span class="tag small">CI/CD</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Flutter & React Native Developer</h3>
+                  <span class="timeline-company">Tokopedia</span>
+                </div>
+                <div class="timeline-meta">
+                  <div class="timeline-date"><i class="ph ph-calendar"></i> 2020 — 2022</div>
+                  <span class="badge badge-primary">Full-time</span>
+                </div>
+              </div>
+              <p class="timeline-desc">Built and maintained buyer-facing features for the Tokopedia marketplace app. Collaborated with design teams to implement motion design and micro-interactions.</p>
+              <div class="timeline-tags">
+                <span class="tag small">Flutter</span>
+                <span class="tag small">React Native</span>
+                <span class="tag small">TypeScript</span>
+                <span class="tag small">REST API</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Item 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Frontend Developer (Web)</h3>
+                  <span class="timeline-company">Bukalapak</span>
+                </div>
+                <div class="timeline-meta">
+                  <div class="timeline-date"><i class="ph ph-calendar"></i> 2019 — 2020</div>
+                  <span class="badge badge-primary">Full-time</span>
+                </div>
+              </div>
+              <p class="timeline-desc">Developed React-based seller dashboard and internal admin tools. Improved page performance by 35% through code-splitting and lazy loading strategies.</p>
+              <div class="timeline-tags">
+                <span class="tag small">React</span>
+                <span class="tag small">Redux</span>
+                <span class="tag small">Node.js</span>
+                <span class="tag small">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section bg-alt" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">// PORTFOLIO</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">A selection of work I'm proud of — from concept to deployment.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card glass reveal">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="FinTrack Mobile" class="project-img">
+              <span class="badge badge-primary absolute-badge">Featured</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">FinTrack Mobile</h3>
+              <p class="project-desc">Personal finance tracker built with Flutter featuring real-time charts, budget planning, and bank integration via open banking API.</p>
+              <div class="timeline-tags">
+                <span class="tag small">Flutter</span>
+                <span class="tag small">Firebase</span>
+                <span class="tag small">BLoC</span>
+                <span class="tag small">Plaid API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Source</a>
+                <a href="#" class="project-link"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass reveal" style="transition-delay: 0.1s">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="ShopNest" class="project-img">
+              <span class="badge badge-secondary absolute-badge">Featured</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">ShopNest E-Commerce</h3>
+              <p class="project-desc">Full-stack e-commerce platform with Next.js storefront, Node.js backend, and real-time inventory management dashboard.</p>
+              <div class="timeline-tags">
+                <span class="tag small">Next.js</span>
+                <span class="tag small">Node.js</span>
+                <span class="tag small">PostgreSQL</span>
+                <span class="tag small">Stripe</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Source</a>
+                <a href="#" class="project-link"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 3 -->
+          <div class="project-card glass reveal">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="MedConnect" class="project-img">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">MedConnect Telehealth</h3>
+              <p class="project-desc">Telehealth Flutter app connecting patients with doctors via video calls, secure messaging, and digital prescriptions.</p>
+              <div class="timeline-tags">
+                <span class="tag small">Flutter</span>
+                <span class="tag small">WebRTC</span>
+                <span class="tag small">Supabase</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Source</a>
+                <a href="#" class="project-link"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 4 -->
+          <div class="project-card glass reveal" style="transition-delay: 0.1s">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="DevCollab" class="project-img">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">DevCollab Dashboard</h3>
+              <p class="project-desc">Real-time team collaboration dashboard with project management, time tracking, and GitHub integration.</p>
+              <div class="timeline-tags">
+                <span class="tag small">React</span>
+                <span class="tag small">TypeScript</span>
+                <span class="tag small">Socket.io</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="ph ph-github-logo"></i> Source</a>
+                <a href="#" class="project-link"><i class="ph ph-arrow-square-out"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">// CONTACT</span>
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">Have a project in mind? I'd love to hear about it.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal slide-right">
+            <h3>Get In Touch</h3>
+            <div class="contact-methods">
+              <div class="contact-method glass">
+                <div class="method-icon"><i class="ph ph-envelope-simple"></i></div>
+                <div class="method-details">
+                  <span class="method-label">EMAIL</span>
+                  <span class="method-value">andi@dev.id</span>
+                </div>
+              </div>
+              <div class="contact-method glass">
+                <div class="method-icon"><i class="ph ph-map-pin"></i></div>
+                <div class="method-details">
+                  <span class="method-label">LOCATION</span>
+                  <span class="method-value">Jakarta Selatan, DKI Jakarta</span>
+                </div>
+              </div>
+              <div class="contact-method glass">
+                <div class="method-icon"><i class="ph ph-briefcase"></i></div>
+                <div class="method-details">
+                  <span class="method-label">FREELANCE</span>
+                  <span class="method-value">Open to projects</span>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="mt-8">Social Profiles</h3>
+            <div class="contact-social">
+              <a href="#" class="social-btn glass"><i class="ph ph-github-logo"></i></a>
+              <a href="#" class="social-btn glass"><i class="ph ph-linkedin-logo"></i></a>
+              <a href="#" class="social-btn glass"><i class="ph ph-twitter-logo"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-form-container glass reveal slide-left">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="name">YOUR NAME</label>
+                <input type="text" id="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">EMAIL ADDRESS</label>
+                <input type="email" id="email" placeholder="john@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="message">MESSAGE</label>
+                <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <p>&lt; Made with <i class="ph-fill ph-heart" style="color: #ff4b4b;"></i> by Andi Pratama /&gt;</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
